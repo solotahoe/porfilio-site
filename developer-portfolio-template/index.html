@@ -796,7 +796,7 @@
                 <div id="success"></div>
                 <form
                   name="sentMessage"
-                  id="contactForm"
+                 
                   novalidate="novalidate"
                   method="POST" data-netlify="true"
                   netlify
@@ -807,6 +807,7 @@
                       class="form-control"
                       id="name"
                       placeholder="Your Name"
+                      name="name"
                       required="required"
                       data-validation-required-message="Please enter your name"
                     />
@@ -819,6 +820,7 @@
                       id="email"
                       placeholder="Your Email"
                       required="required"
+                      name="email"
                       data-validation-required-message="Please enter your email"
                     />
                     <p class="help-block"></p>
@@ -830,6 +832,7 @@
                       id="subject"
                       placeholder="Subject"
                       required="required"
+                      email="subject"
                       data-validation-required-message="Please enter a subject"
                     />
                     <p class="help-block"></p>
@@ -845,7 +848,7 @@
                     <p class="help-block"></p>
                   </div>
                   <div>
-                    <button class="btn" type="submit" id="sendMessageButton">
+                    <button class="btn" type="submit">
                       Send Message
                     </button>
                   </div>
